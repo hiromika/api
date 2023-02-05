@@ -1,0 +1,136 @@
+body{
+    font-family: Urbanist;
+    font-style: normal;
+    background-color: white !important;
+}
+
+/* navbar */
+
+/* .navbar-cs{
+    background-color: #00BABA;
+} */
+
+.nav-item .nav-link{
+    color :#ffffff !important;
+} 
+
+.nav-tabs {
+border-bottom: none !Important;
+}
+
+
+/* header */
+
+.list-m{
+    display: none;
+}
+.list-d{
+    display: unset;
+}
+
+.icon-sos{
+  position: fixed;
+  top: 80%;
+  right: 20px;
+}
+
+.f-wa{
+    padding:10px;
+    text-align: right;
+}
+.f-tele{
+    padding:10px;
+    text-align: right;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    left: 20px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+.carousel-control-prev {
+  color:#036;
+  margin-left: -.5rem;
+  z-index: 10;
+}
+
+.carousel-control-next {
+  color:#036;
+  margin-right: -.5rem;
+  z-index: 10;
+}
+
+.carousel-controls a:hover {
+  color: 004289;
+  z-index: 10;
+}
+
+.carousel-control-prev:hover {
+  color:#00BABA;
+}
+
+.carousel-control-next:hover {
+  color:#00BABA;
+}
+.carousel-control-prev:hover :after {
+  color:#00BABA;
+}
+
+.carousel-control-next:hover :after{
+  color:#00BABA;
+}
+.text-partner-cs{
+    font-size: 12px;
+    color: white;
+    align-items:center;
+    text-align: center;
+    margin-bottom:0px;
+}
+.bg-white{
+    background-color:white;
+    color:#00BABA;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar-toggler-icon {
+        background-image: url("/assets/images/nav.png"); 
+        width:24px;
+        height:14px;
+    }
+
+    .font-footer{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+
+
+        color: #373E51;
+    }
+
+    .footer{
+        text-align: center;
+    }
+    
+    .footer-text{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    /* identical to box height, or 183% */
+
+    letter-spacing: 0.005em;
+
+    color: #000000;
+    }
+
+    .list-m{
+        display: unset;
+    }
+    .list-d{
+        display: none;
+    }
+}

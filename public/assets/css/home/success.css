@@ -1,0 +1,54 @@
+.body-success{
+    min-height: 750px;;
+}
+.text-success-header-cs {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+
+    text-align: center;
+    letter-spacing: 0.3px;
+
+    color: #373E51;
+}
+.img-success{
+    font-size: 75px;
+    color: #00BABA;
+    /* Sadow button */
+
+    box-shadow: 0px 10px 30px rgba(64, 191, 255, 0.24);
+    border-radius: 56px;
+}
+.text-form-success-desc-cs{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+    letter-spacing: 0.3px;
+
+    /* Color/Gray/Gray-800 */
+
+    color: #3F4254;
+}
+.btn-success-wa{
+    height: 48px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #00BABA;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 0.5px;
+
+    color: #FFFFFF;
+}
