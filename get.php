@@ -4,6 +4,11 @@ $username = "farahardi";
 $password = "FarahHardi@213";
 $dbname = "farahardi";
 
+// $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $dbname = "farahardi";
+
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -13,13 +18,13 @@ if ($conn->connect_error) {
 }
 
 
-$sql = "SELECT Name, Kom, createdAt FROM users";
+$sql = "SELECT Nama, Kom, createdAt FROM users";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    return json_encode($result->fetch_assoc());
+    echo json_encode($result->fetch_assoc());
 } else {
-    return "0 results";
+    echo "0 results";
 }
 
 $conn->close();

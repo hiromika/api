@@ -4,6 +4,10 @@ $servername = "localhost";
 $username = "farahardi";
 $password = "FarahHardi@213";
 $dbname = "farahardi";
+// $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $dbname = "farahardi";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -20,9 +24,9 @@ $kom = $_POST['kom'];
 $sql = "INSERT INTO users (Nama, Kom) VALUES ('$name', '$kom')";
 
 if ($conn->query($sql) === TRUE) {
-  return "New record created successfully";
+  echo "New record created successfully";
 } else {
-  return "Error: " . $sql . "<br>" . $conn->error;
+  echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
 $conn->close();
