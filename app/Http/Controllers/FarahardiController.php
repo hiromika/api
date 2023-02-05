@@ -17,7 +17,7 @@ class FarahardiController extends Controller
     public function index()
     {
          try {
-            $users = Farahardi::get();
+            $users = Farahardi::orderBy('IDUser','desc')->get();
 
             return response()->json($users, 200);
         } catch (\Throwable $th) {
